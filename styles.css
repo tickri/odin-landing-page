@@ -1,0 +1,134 @@
+/* SETTINGS */
+
+html {
+    --black: #333;
+    --white: #fff;
+    --color: #3b82f6;
+    --dark: #1f2937;
+    --light: lighterblue;
+}
+
+/* SETUP */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+picture {
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display:block;
+}
+
+
+/* DEV STYLES */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* STRUCTURE */
+
+main {
+    flex-grow: 1;
+}
+
+inner-column {
+    display: block;
+    padding: 10px;
+    width: 98%;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+header inner-column {
+    padding: 10px;
+}
+
+footer inner-column {
+    padding: 10px;
+}
+
+/* TYPOGRAPHY */
+
+.loud-voice {
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 0.9;
+}
+
+.calm-voice {
+    font-family: sans-serif;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+/* COMPONENTS */
+
+.button {
+    font-family: sans-serif;
+    display: inline-block;
+    background-color: var(--color);
+    color: var(--white);
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* MODULES */
+
+graphic-diptic {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+graphic-diptic picture {
+}
+
+graphic-diptic text-content {
+    display: block;
+}
+
+graphic-diptic text-content p {
+    margin-top: 10px;
+}
+
+graphic-diptic text-content .button {
+    margin-top: 10px;
+}
+
+@media (min-width: 600px) {
+    graphic-diptic {
+        flex-direction: row-reverse;
+    }
+    graphic-diptic :is(text-content, picture) {
+        flex-basis: 50%;
+    }
+}
+
+.welcome {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.welcome .button {
+
+}
