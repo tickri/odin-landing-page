@@ -5,7 +5,7 @@ html {
     --white: #fff;
     --color: #3b82f6;
     --dark: #1f2937;
-    --light: lighterblue;
+    --light: #e5e7eb;
 }
 
 /* SETUP */
@@ -30,13 +30,25 @@ a {
     display:block;
 }
 
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
 
 /* DEV STYLES */
+
 
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+footer {
+    background-color: var(--dark);
+    color: var(--white);
+    font-family: sans-serif;
 }
 
 /* STRUCTURE */
@@ -131,4 +143,75 @@ graphic-diptic text-content .button {
 
 .welcome .button {
 
+}
+
+.header {
+    background-color: var(--dark);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.products {
+    font-family: sans-serif;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+product-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+product-card {
+    display: block;
+}
+
+.blue-box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+}
+
+.product-text {
+    text-wrap: wrap;
+    width: 100px;
+
+}
+
+.quote {
+    background-color: var(--light);
+}
+
+quote-section {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.quote-text {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
 }
