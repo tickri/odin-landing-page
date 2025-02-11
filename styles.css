@@ -103,6 +103,17 @@ footer inner-column {
     border-radius: 5px;
 }
 
+.second-button {
+    font-family: sans-serif;
+    display: inline-block;
+    background-color: var(--color);
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
 /* MODULES */
 
 graphic-diptic {
@@ -141,9 +152,7 @@ graphic-diptic text-content .button {
     color: var(--white);
 }
 
-.welcome .button {
 
-}
 
 .header {
     background-color: var(--dark);
@@ -195,15 +204,27 @@ product-card {
 
 .quote {
     background-color: var(--light);
+    
 }
 
 quote-section {
-    display: block;
+    /* display: block;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
     padding-left: 75px;
-    padding-right: 75px;
+    padding-right: 75px; */
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 80%;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .quote-text {
@@ -214,4 +235,26 @@ quote-section {
 .quote-author {
     display: flex;
     justify-content: flex-end;
+}
+
+.call-to-action {
+    background-color: var(--color);
+    color: var(--white);
+    font-family: sans-serif;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--light);
 }
