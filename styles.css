@@ -67,3 +67,43 @@ li {
     height: 250px;
     width: auto;
 }
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 32px 0;
+}
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 110px;
+    width: 110px;
+}
+
+.info-box {
+    height: 110px;
+    width: 110px;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.info-text {
+    font-size: 12px;
+    text-wrap: wrap;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 3px;
+}
