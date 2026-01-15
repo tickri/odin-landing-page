@@ -5,11 +5,12 @@
     padding: 0;
 }
 
-header {
+header,
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 15%;
+    padding: 24px 12%;
 }
 
 .dark-background {
@@ -34,7 +35,32 @@ li {
     color: #f9faf8;
 }
 
-.header-links {
+.header-links,
+.secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.main {
+    padding: 30px 0 60px 0;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.signup-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.hero-image {
+    height: 250px;
+    width: auto;
 }
