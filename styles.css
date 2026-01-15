@@ -52,12 +52,15 @@ li {
 }
 
 .signup-button {
-    background-color: #3882f6;
     color: #f9faf8;
     padding: 10px 30px;
     border: 0;
     border-radius: 8px;
     margin-top: 16px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
 }
 
 .hero-image {
